@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="my-lambdata-pt5", # the name that you will install via pip
+    name="CurdtMillion1st", # the name that you will install via pip
     version="1.0",
     author="Curdt Million",
     author_email="curtcecil@gmail.com",
