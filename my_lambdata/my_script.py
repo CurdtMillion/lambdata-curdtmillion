@@ -3,6 +3,7 @@
 
 from pandas import DataFrame
 from my_lambdata.my_mod import enlarge
+from my_lambdata.my_mod import decimate
 
 print("HELLO")
 
