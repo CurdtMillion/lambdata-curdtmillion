@@ -13,5 +13,5 @@ print(df.head())
 x = 11
 print(enlarge(x))
 
-z = 1000000
+z = int(input("Please choose a number (e.g. 5): "))
 print(decimate(z))
