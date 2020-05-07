@@ -4,6 +4,7 @@
 from pandas import DataFrame
 from my_lambdata.my_mod import enlarge
 from my_lambdata.my_mod import decimate
+from my_lambdata.my_mod import checknan
 
 print("HELLO")
 
