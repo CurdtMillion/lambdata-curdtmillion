@@ -7,6 +7,9 @@ def enlarge(n):
 def decimate(n):
     return n - (n * .1)
 
+def checknan(df):
+    print(df.isnull())
+
 # def splitdate():
 
 
