@@ -1,13 +1,13 @@
 # my_mod.py
 
 
-def enlarge(n):
+def enlarge(n): # Multiplies by 100
     return n * 100
 
-def decimate(n):
+def decimate(n):    # Decreases by 10%
     return n - (n * .1)
 
-def checknan(df):
+def checknan(df):   # Checks for NaNs
     print(df.isnull())
 
 # def splitdate():
