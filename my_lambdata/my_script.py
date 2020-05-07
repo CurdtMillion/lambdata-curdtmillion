@@ -12,3 +12,6 @@ print(df.head())
 
 x = 11
 print(enlarge(x))
+
+z = 1000000
+print(decimate(z))
