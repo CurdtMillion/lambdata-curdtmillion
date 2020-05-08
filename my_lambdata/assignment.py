@@ -6,7 +6,17 @@ from pandas import DataFrame
 def add_state_names(my_df):
     # TODO: add a column of corresponding state names
     
+    # dict w/ abbrev/name mappings
+    # creat a new column that is a copy of the 1st, but mapped w/ the names
+    # concat with axis=1
+
+    names_map = {"CA":"Cali", "CO":"Colo", "CT":"Conn"}
+
+    breakpoint()
+
+
     return my_df
+
 
 if __name__ == "__main__":
     
