@@ -4,18 +4,13 @@ from pandas import DataFrame
 # (Handle Washington DC and territories like Puerto Rico etc.)
 
 def add_state_names(my_df):
-    # TODO: add a column of corresponding state names
-    
-    # dict w/ abbrev/name mappings
-    # creat a new column that is a copy of the 1st, but mapped w/ the names
-    # concat with axis=1
-
-    names_map = {"CA":"Cali", "CO":"Colo", "CT":"Conn"}
-
-    breakpoint()
+   new_df = my_df.copy()
+   names_map = {"CA":"Cali", "CO":"Colo", "CT":"Conn"}
+   new_df["name"] = new_df["abbrev"].map(names_map)
+   breakpoint()
 
 
-    return my_df
+   return my_df
 
 
 if __name__ == "__main__":
