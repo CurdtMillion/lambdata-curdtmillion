@@ -6,14 +6,21 @@ class Auto():
         self.year = year
         self.color = color
         self.num_wheels = num_wheels
+
     def wash(self):
+
         print("WASHING THE CAR")
+
     def drive(self):
+
         print("WE ARE DRIVING", self.model)
+
+
 class Truck(Auto):
     def __init__(self, make, model, year, color, num_wheels, bed_size):
         super().__init__(make, model, year, color, num_wheels)
         self.bed_size = bed_size
+
     def drive(self):
         print("WE ARE DRIVING", self.model, "WITH BED SIZE:", self.bed_size)
 if __name__ == "__main__":
