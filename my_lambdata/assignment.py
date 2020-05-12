@@ -22,3 +22,4 @@ if __name__ == "__main__":
 
     df3 = DataFrame({"abbrev":["CA", "CO", "CT", "DC", "TX"]})
     print(df3.head())
+    
