@@ -16,4 +16,3 @@ print(enlarge(x))
 
 z = int(input("Please choose a number (e.g. 5): "))
 print(decimate(z))
-
